@@ -1,12 +1,14 @@
 body{ 
-	background: #103
+	background: #308
 	;
 font-family: helvetica;
 
 }
+
+a{font-size: 2em }
 img{width:300px;}
 
-#leftcol{ background : #121;}
-#rightcol{background : #120;}
+#leftcol{ background : #301;}
+#rightcol{background : #300;}
 .round{ border-right : 2;}
 .shadow{ box-shadow :10px 10px 10px black ;}
