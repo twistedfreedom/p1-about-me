@@ -1,25 +1,36 @@
+
 body{ 
-	background: #308;
+
+	background:blue;
 font-family: helvetica;
+color:white;
 
 }
 /* Navigation*/ 
+
 
 a{
 	font-size: 2em;
     color:white; 
     text-decoration: none;}
-img{width:300px;}
+img{width:400px;}
+
 /*containter*/ 
 
 #leftcol{ 
-background : #301;
+background : lightblue;
 width: 400px;
 float: left;}
 
 
-#rightcol{background : #300;
+#rightcol{background : lightblue;
 width: 400px ;
 float: left;}
 .round{ border-right : 2;}
 .shadow{ box-shadow :10px 10px 10px black ;}
+
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
