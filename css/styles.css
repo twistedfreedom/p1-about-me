@@ -1,19 +1,26 @@
 
 body{ 
-
-	background:blue;
-font-family: helvetica;
-color:white;
-
+background: blue;
 }
-/* Navigation*/ 
 
+
+h1{
+	text-align: center;
+}
 
 a{
 	font-size: 2em;
     color:white; 
-    text-decoration: none;}
-img{width:400px;}
+    text-decoration: none;
+}
+
+img{
+	width:400px;
+}
+
+p{
+
+}
 
 /*containter*/ 
 
@@ -26,10 +33,11 @@ float: left;}
 #rightcol{background : lightblue;
 width: 400px ;
 float: left;}
-.round{ border-right : 2;}
-.shadow{ box-shadow :10px 10px 10px black ;}
+.round-shadow{ border-right : 2;}
+.round-shadow{ box-shadow :10px 10px 10px black;
+}
 
- */
+ 
 
 table {
     border-collapse: collapse;
