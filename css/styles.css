@@ -2,46 +2,37 @@
 
 body{ 
 background: url(../img/bg.png);
-height: 620px
 }
 
-.logo{
-  box-shadow: 10px 10px 10px 10px black;
-  color: black;
-  font-family:helvetica;
-  text-align:center;
-  font-weight:bold;
-  font-size:20px;
-  line-height: 100px;
-  height:100px ;
-  width: 350px ;
-  border-radius: 10px 60px 10px 60px; 
-  margin: 30px;
-}
-div{
-	display:center;
+li{
+	list-style: none;
+	font-family: 'forum', sans-serif;
+
+
 
 }
+
 h1{
-
+	display:relative;
 	background: url(../img/bg/png);
 	font-family: helvetica; 
 	font-weight: bold;
 	font-size: 50px; 
+	float:left; 
 	text-align: center;
 }
 h2{
 
 	background: url(../img/bg/png);
-	font-family: helvetica; 
+	color: white; 
+	font-family:'forum', sans-serif; 
 	font-weight: bold;
-	font-size: 50px; 
-	text-align: left;
+	font-size: 36px; 
+	text-align: center;
+
 }
 
 a{
-
-	
 	box-shadow: 5px 5px 5px 5px black;
 	border-radius: 10px 40px 10px 40px;
 	display:inline; 
@@ -52,32 +43,80 @@ a{
     height:36px;
     width:100px;
     padding:10px;
-
-
+    margin: 15px;
+    float:center;
 }
+a:hover{
+	background: white;
+}
+a:visited{
+	color:red;
+}
+
+
 
 img{
-	width:400px;
+	width:300px;
 	border: 4px solid black; 
-	float:relative; 
+	margin: 30px 30px 30px 30px;
+	position:relative;
+	float:right;
+
 
 
 }
-span{
-	font-family: helvetica;
-  color:white;
-  font-size: 36px;
-  float:left; 
- 
+/* broken on purpose for later use */ 
+pan{
+	font-family: 'forum', sans-serif;
+  	color:white;
+  	font-size: 36px;
+  	float:left; 
 }
 p{
-	font-family: helvetica;
+	font-family:'Allerta Stencil', sans-serif;;
 	color: white; 
 	font-weight: bold;
 	font-size: 14px; 
+}
 
+
+.logo h1{
+  box-shadow: 5px 5px 5px 5px black;
+  color: black;
+  font-family:helvetica;
+  text-align:center;
+  font-weight:bold;
+  font-size:50px;
+  line-height: 100px;
+  height:100px ;
+  width: 350px ;
+  border-radius: 10px 60px 10px 60px; 
+  margin: 30px;
+}
+
+.right{
+	text-align: center;
+	color:white;
+	font-family: 'forum',sans-serif; 
+	font-size: 16px
+
+ 
+}
+.nav{
+	text-align:center;
+	color:white;
+}
+
+.nav li{
+	float:left;
 
 }
+
+.nav a{
+	display:inline;
+	width: 200px;
+}
+
 
 /*containter*/ 
 
@@ -91,9 +130,7 @@ rightcol{
 background: url(../img/bg.jpg);
 width: 400px ;
 height: 616px; 
-float: left;}
-.round-shadow{ border-right : 2;}
-.round-shadow{ box-shadow :10px 10px 10px black;
+float: left;
 }
 
  
