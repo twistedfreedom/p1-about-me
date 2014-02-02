@@ -11,12 +11,11 @@ li{
 }
 
 h1{
-	display:relative;
 	color:white;
 	font-family: helvetica; 
 	font-weight: bold;
-	font-size: 36px; 
-	text-align: left;
+	font-size: 50px; 
+	text-align: center;
 	
 }
 
@@ -28,19 +27,24 @@ h2{
 	font-size: 36px; 
 	text-align: left;
 }
+h3{
+	color:white;
+
+}
 
 a{
 	box-shadow: 5px 5px 5px 5px black;
 	border-radius: 10px 40px 10px 40px;
 	display:inline; 
 	font-size: 2em;
-    color:white; 
+    color:black; 
     font-weight: bold;
     text-decoration: none;
     height:36px;
     width:100px;
     padding:10px;
     margin: 15px;
+    line-height: 100px;
     
 }
 a:hover{
@@ -55,11 +59,11 @@ a:visited{
 }
 
 img{
-	width:300px;
+	width:500px;
 	border: 4px solid black; 
 	margin: 30px 30px 30px 30px;
 	position:relative;
-	float:right;
+	
 
 
 
@@ -80,17 +84,21 @@ p{
 }
 
 
-logo h1{
+.logo h1{
   box-shadow: 5px 5px 5px 5px black;
-  color: white;
+  color: red;
   font-family:helvetica;
   text-align:center;
   font-weight:bold;
-  font-size:36px;
-  line-height: 50px;
+  font-size:50px;
+  line-height: 100px;
   height:100px ;
   width: 350px ;
   border-radius: 10px 60px 10px 60px; 
+  float:left;
+  margin:10px;
+  padding:10px;
+
 
 }
 
@@ -113,11 +121,14 @@ logo h1{
 }
 
 .nav a{
-	display:inline-block;
-	width: 200px;
+	display:inline;
+	width: 400px;
 	
 }
 
+.links{
+	display:inline-block;
+}
 
 /*containter*/ 
 
