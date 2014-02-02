@@ -8,14 +8,16 @@ li{
 	list-style: none;
 	font-family: 'forum', sans-serif;
 	color:white;
+
 }
+
 
 h1{
 	color:white;
 	font-family: helvetica; 
 	font-weight: bold;
 	font-size: 50px; 
-	text-align: center;
+	text-align: left;
 	
 }
 
@@ -102,6 +104,8 @@ p{
 
 }
 
+
+
 .right{
 	text-align: center;
 	color:white;
@@ -133,16 +137,16 @@ p{
 /*containter*/ 
 
 .leftcol{ 
-background: url(../img/bg.jpg);
+
 width: 400px;
 float: left;}
 
 
 .rightcol{
-background: url(../img/bg.jpg);
+
 width: 400px ;
-height: 616px; 
-float: left;
+
+float: right;
 }
 
  
